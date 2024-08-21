@@ -71,6 +71,8 @@ public class Lox {
       System.out.println(token);
     }
 */
+    // stop if scanner fails
+    if (hadError) return;
 //> Parsing Expressions print-ast
     Parser parser = new Parser(tokens);
 /* Parsing Expressions print-ast < Statements and State parse-statements
