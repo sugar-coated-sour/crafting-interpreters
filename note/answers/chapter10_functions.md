@@ -40,7 +40,7 @@
     separately, since lambdas won't have one:
 
     ```java
-    class LoxFunction implements Callable {
+    class LoxFunction implements LoxCallable {
       private final String name;
       private final Expr.Function declaration;
       private final Environment closure;
