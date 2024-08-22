@@ -25,7 +25,7 @@
     for function expressions. In the defineAst() call for Expr, add:
 
     ```java
-    "Function : List<Token> parameters, List<Stmt> body",
+    "Function : List<Token> params, List<Stmt> body",
     ```
 
     While we're at it, we can reuse that for function statements. A function
